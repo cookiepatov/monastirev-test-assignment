@@ -1,0 +1,59 @@
+.favourites {
+  width: 24.86px;
+  height: 24px;
+  background-image: url(../../images/favourites-icon.svg);
+  background-color: transparent;
+  border: none;
+  margin-left: 24px;
+  align-self: center;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.favourites:hover {
+	animation: 0.7s ease-in-out 0s 1 normal forwards running rotate;
+	transform-box: fill-box;
+  transform-origin: 50% 50%;
+  opacity: 0.8;
+}
+
+@media screen and (max-width:1000px) {
+  .favourites {
+    margin-left: 0;
+  }
+}
+
+
+@media screen and (max-width:400px) {
+  .favourites {
+    display: none;
+  }
+}
+
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0);
+	}
+	14.29% {
+		transform: rotate(-7.5deg);
+	}
+	28.57% {
+		transform: rotate(-7.5deg);
+	}
+	57.14% {
+		transform: rotate(15deg);
+	}
+	80% {
+		transform: rotate(-15deg);
+  }
+  90% {
+    transform: rotate(-7.5deg);
+  }
+  95% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}

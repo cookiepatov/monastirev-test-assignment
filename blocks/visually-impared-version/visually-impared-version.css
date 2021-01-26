@@ -1,0 +1,42 @@
+.visually-impared-version {
+  border: none;
+  border-radius: 10px;
+  width: 196px;
+  height: 32px;
+  background-color: #F4F4F4;
+  padding: 0;
+  display: flex;
+  margin-left: 80px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+
+.visually-impared-version:hover {
+  background-color:  #FFCC00;
+}
+
+
+@media screen and (max-width:1199px) {
+  .visually-impared-version
+  {
+    margin-left: 0;
+  }
+}
+
+
+
+@media screen and (max-width:1000px) {
+  .visually-impared-version
+  {
+    width: 30px;
+    height: 28px;
+  }
+}
+
+
+@media screen and (max-width:600px) {
+  .visually-impared-version {
+    display: none;
+  }
+}

@@ -1,0 +1,54 @@
+@import url(../vendor/normalize.css);
+
+@import url(../vendor/fonts/ptSans.css);
+
+@import url(../blocks/root/root.css);
+
+@import url(../blocks/header/header.css);
+
+@import url(../blocks/top-menu/top-menu.css);
+@import url(../blocks/top-menu/__top-block/top-menu__top-block.css);
+@import url(../blocks/top-menu/__bottom-block/top-menu__bottom-block.css);
+
+@import url(../blocks/logo/__img/logo__img.css);
+@import url(../blocks/logo/__link/logo__link.css);
+
+@import url(../blocks/city-selector/city-selector.css);
+@import url(../blocks/city-selector/__text/city-selector__text.css);
+@import url(../blocks/city-selector/__icon/city-selector__icon.css);
+
+@import url(../blocks/nav-link-block/nav-link-block.css);
+@import url(../blocks/nav-link-block/__item/nav-link-block__item.css);
+@import url(../blocks/nav-link-block/__item/_active/nav-link-block__item_active.css);
+
+@import url(../blocks/visually-impared-version/visually-impared-version.css);
+@import url(../blocks/visually-impared-version/__icon/visually-impared-version__icon.css);
+@import url(../blocks/visually-impared-version/__inner-content/visually-impared-version__inner-content.css);
+@import url(../blocks/visually-impared-version/__text/visually-impared-version__text.css);
+
+
+@import url(../blocks/catalog-button/catalog-button.css);
+@import url(../blocks/catalog-button/__icon/catalog-button__icon.css);
+@import url(../blocks/catalog-button/__text/catalog-button__text.css);
+
+@import url(../blocks/search-button/search-button.css);
+
+@import url(../blocks/phone-number/phone-number.css);
+
+@import url(../blocks/search-form/search-form.css);
+@import url(../blocks/search-form/__input/search-form__input.css);
+@import url(../blocks/search-form/__submit/search-form__submit.css);
+
+@import url(../blocks/user-area/user-area.css);
+
+@import url(../blocks/profile/profile.css);
+@import url(../blocks/profile/__icon/profile__icon.css);
+@import url(../blocks/profile/__name/profile__name.css);
+@import url(../blocks/profile/__info/profile__info.css);
+
+@import url(../blocks/favourites/favourites.css);
+@import url(../blocks/cart/cart.css);
+
+@import url(../blocks/footer/footer.css);
+
+

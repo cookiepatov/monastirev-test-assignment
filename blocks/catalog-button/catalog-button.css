@@ -1,0 +1,54 @@
+.catalog-button {
+  background-color: #00893D;
+  border: none;
+  border-radius: 10px;
+  width: 208px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.catalog-button:hover {
+  background-color: #E7FCF0;
+}
+
+.catalog-button:hover .catalog-button__icon {
+  filter: invert(70%) sepia(42%) saturate(7428%) hue-rotate(147deg) brightness(95%) contrast(101%);
+}
+
+
+.catalog-button:hover .catalog-button__text {
+  color: #00893D;
+}
+
+@media screen and (max-width:600px)
+{
+  .catalog-button {
+    background-color: transparent;
+    width: 20px;
+    height: 14px;
+    grid-row: 1/1;
+    grid-column: 1/1;
+    margin-right: 14px;
+  }
+  .catalog-button:hover .catalog-button__icon {
+    filter: none
+  }
+  .catalog-button:hover {
+    background-color: transparent;
+    transform: scale(1.1);
+  }
+
+}
+
+
+
+@media screen and (max-width:350px) {
+  .catalog-button {
+    margin-right: 5px;
+  }
+}

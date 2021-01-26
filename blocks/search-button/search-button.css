@@ -1,0 +1,33 @@
+.search-button {
+  display: none;
+}
+
+
+@media screen and (max-width:600px) {
+  .search-button {
+    display: block;
+    border: none;
+    background-color: transparent;
+    background-image: url(../../images/search-icon.svg);
+    width: 24px;
+    height: 24px;
+    margin-right: 9px;
+    grid-column: 2/2;
+    grid-row: 1/1;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+
+  .search-button:hover {
+    transform: scale(1.1);
+  }
+}
+
+
+@media screen and (max-width:350px) {
+  .search-button {
+    margin-right: 0px;
+  }
+}
+
+

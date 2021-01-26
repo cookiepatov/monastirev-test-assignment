@@ -1,0 +1,11 @@
+.top-menu__top-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+@media screen and (max-width:1199px) {
+  .top-menu__top-block {
+    justify-content: space-between;
+  }
+}

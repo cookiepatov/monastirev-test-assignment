@@ -1,0 +1,32 @@
+.cart {
+  background-color: transparent;
+  border: none;
+  background-image: url(../../images/shopping-cart-icon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 31px;
+  height: 29px;
+  margin-left: 23px;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+
+
+.cart:hover {
+  transform: scale(1.1);
+}
+
+
+@media screen and (max-width:1000px) {
+  .cart {
+    margin-left: 10px;
+  }
+}
+
+
+@media screen and (max-width:600px) {
+  .cart {
+    background-image: url(../../images/shopping-cart-icon-condensed.svg);
+    margin-left: 0px;
+  }
+}

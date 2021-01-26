@@ -1,0 +1,14 @@
+.visually-impared-version__icon {
+  width: 20px;
+  height: 13px;
+  align-self: center;
+  margin-left: 4px;
+}
+
+
+@media screen and (max-width:1000px) {
+  .visually-impared-version__icon {
+    margin-left: 0;
+  }
+}
+

@@ -1,0 +1,33 @@
+.profile{
+  background-color: transparent;
+  border: none;
+  display: grid;
+  grid-template-columns: 29px 85px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.profile:hover .profile__name::after {
+  width: 100%;
+}
+
+
+
+.profile:hover {
+  opacity: 0.8;
+}
+
+
+
+@media screen and (max-width:1000px) {
+  .profile {
+    grid-template-columns: 29px;
+  }
+}
+
+
+@media screen and (max-width:400px) {
+  .profile {
+    display: none;
+  }
+}

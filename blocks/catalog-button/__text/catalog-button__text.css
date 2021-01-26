@@ -1,0 +1,18 @@
+.catalog-button__text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  color: white;
+  margin: 0;
+  margin-right: 16px;
+  transition: 0.2s ease-in-out;
+}
+
+
+@media screen and (max-width:600px)
+{
+  .catalog-button__text {
+    display: none;
+  }
+}

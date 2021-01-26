@@ -1,0 +1,19 @@
+.search-form__submit {
+  background-color: #FFCC00;
+  background-image: url(../../../images/search-icon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  padding: 0;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  margin-right: 2px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.search-form__submit:hover {
+  opacity: 0.8;
+}

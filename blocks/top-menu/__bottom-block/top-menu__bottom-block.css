@@ -1,0 +1,14 @@
+.top-menu__bottom-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+@media screen and (max-width:400px) {
+  .top-menu__bottom-block {
+    grid-column: 4/4;
+    grid-row: 1/1;
+  }
+}

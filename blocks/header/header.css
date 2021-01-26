@@ -1,0 +1,14 @@
+.header {
+  width: 100%;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.04);
+  border-radius: 0 0 20px 20px;
+}
+
+
+
+@media screen and (max-width:600px) {
+  .header {
+    box-shadow:  none;
+    border-radius: 0;
+  }
+}

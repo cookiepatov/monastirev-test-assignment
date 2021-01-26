@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Монастырёв</title>
+</head>
+<body class="body">
+  <div class="root">
+    <header class="header">
+      <div class="top-menu">
+        <a href="./index.html" class="logo__link">
+          <img src="./images/logo.svg" class="logo__img" alt="Монастырёв">
+
+        </a>
+        <div class="top-menu__top-block">
+            <button class="city-selector" type="button">
+              <p class="city-selector__text">
+                Владивосток
+              </p>
+              <img src="./images/city-selector-icon.svg" alt="выбор города" class="city-selector__icon">
+            </button>
+            <nav class="nav-link-block">
+              <a href="#" class="nav-link-block__item nav-link-block__item_active">
+                Адреса&nbsp;аптек
+              </a>
+              <a href="#" class="nav-link-block__item">
+                Доставка
+              </a>
+              <a href="#" class="nav-link-block__item">
+                О&nbsp;нас
+              </a>
+              <a href="#" class="nav-link-block__item">
+                Акции
+              </a>
+            </nav>
+            <button class="visually-impared-version">
+              <div class="visually-impared-version__inner-content">
+                <p class="visually-impared-version__text">
+                  Версия для слабовидящих
+                </p>
+                <img src="./images/impared-vision-icon.svg" class="visually-impared-version__icon" alt="Версия для слабовидящих">
+              </div>
+            </button>
+          <p class="phone-number">8&nbsp;800&nbsp;707&nbsp;77&nbsp;33</p>
+        </div>
+        <button class="catalog-button" type="button">
+          <div class="catalog-button__icon"></div>
+          <p class="catalog-button__text">Каталог товаров</p>
+        </button>
+        <button class="search-button" type="button"></button>
+        <div class="top-menu__bottom-block">
+          <form name="search-form" class="search-form">
+            <input placeholder="Средство, действующее вещество, проблема" type="text" id="search-input" name="search-input" class="search-form__input">
+            <button type="submit" class="search-form__submit"></button>
+          </form>
+          <div class="user-area">
+            <button class="profile" type="button">
+              <img src="./images/user-icon.svg" class="profile__icon" alt="Профиль">
+              <p class="profile__name">Константин</p>
+              <p class="profile__info">Ваш профиль</p>
+            </button>
+            <button class="favourites"></button>
+            <button class="cart"></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+    </main>
+    <footer class="footer">
+    </footer>
+  </div>
+  <script type="module" src="./scripts/main.js"></script>
+</body>
+
+</html>

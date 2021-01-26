@@ -1,0 +1,5 @@
+.visually-impared-version__inner-content {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}

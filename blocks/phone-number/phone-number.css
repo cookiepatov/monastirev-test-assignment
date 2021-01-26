@@ -1,0 +1,25 @@
+.phone-number {
+  margin: 0;
+  color: #4A4A4A;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: right;
+  margin-left: 40px;
+}
+
+
+@media screen and (max-width:1199px) {
+  .phone-number
+  {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width:840px) {
+  .phone-number
+  {
+    display: none;
+  }
+}

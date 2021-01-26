@@ -1,0 +1,40 @@
+.top-menu {
+  padding-top: 25px;
+  padding-bottom: 28px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 208px 1fr;
+  grid-gap: 23px 40px;
+  align-items: center;
+  min-width: 320px;
+}
+
+
+@media screen and (max-width:1199px) {
+  .top-menu {
+    margin-left: 16px;
+    margin-right: 16px;
+    grid-gap: 23px 20px;
+  }
+}
+
+
+@media screen and (max-width:600px) {
+  .top-menu {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-left: 5px;
+    margin-right: 5px;
+    grid-gap: 0;
+    grid-template-columns: max-content max-content 1fr max-content max-content;
+  }
+}
+
+
+@media screen and (max-width:400px) {
+  .top-menu {
+    grid-template-columns: max-content max-content 1fr max-content;
+  }
+}

@@ -1,0 +1,20 @@
+.search-form {
+  height: 48px;
+  border: 2px solid #FFCC00;
+  box-sizing: border-box;
+  border-radius: 100px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+
+@media screen and (max-width:600px) {
+  .search-form
+  {
+    display: none;
+  }
+}
