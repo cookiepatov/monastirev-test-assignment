@@ -7,8 +7,13 @@
   line-height: 26px;
   text-align: right;
   margin-left: 40px;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
 }
 
+.phone-number:hover {
+  opacity: 0.8;
+}
 
 @media screen and (max-width:1199px) {
   .phone-number
